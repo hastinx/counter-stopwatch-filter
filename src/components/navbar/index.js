@@ -7,9 +7,9 @@ const Navbar = ({ children }) => {
     return (
         <>
             <div className='d-flex w-50 justify-content-between align-items-center' style={{ height: '100px' }}>
-                <button className='btn btn-sm btn-primary' onClick={() => navigate('/counter')}>Counter</button>
-                <button className='btn btn-sm btn-success' onClick={() => navigate('/stopwatch')}>Stopwatch</button>
-                <button className='btn btn-sm btn-warning' onClick={() => navigate('/filter')}>Fruit Filter</button>
+                <button className='btn btn-sm btn-primary' onClick={() => navigate('/counter-stopwatch-filter/counter')}>Counter</button>
+                <button className='btn btn-sm btn-success' onClick={() => navigate('/counter-stopwatch-filter/stopwatch')}>Stopwatch</button>
+                <button className='btn btn-sm btn-warning' onClick={() => navigate('/counter-stopwatch-filter/filter')}>Fruit Filter</button>
             </div>
             {children}
         </>

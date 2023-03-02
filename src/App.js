@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <Router>
         <Routes >
-          <Route path='/' element={<Navbar />} />
-          <Route path='/counter' element={<Counter />} />
-          <Route path='/stopwatch' element={<Stopwatch />} />
-          <Route path='/filter' element={<Filter />} />
+          <Route path='/counter-stopwatch-filter/' element={<Navbar />} />
+          <Route path='/counter-stopwatch-filter/counter' element={<Counter />} />
+          <Route path='/counter-stopwatch-filter/stopwatch' element={<Stopwatch />} />
+          <Route path='/counter-stopwatch-filter/filter' element={<Filter />} />
         </Routes>
 
       </Router>
