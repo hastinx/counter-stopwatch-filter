@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/counter-stopwatch-filter/static/css/main.2d731a5d.css",
+    "main.js": "/counter-stopwatch-filter/static/js/main.14752c2c.js",
+    "index.html": "/counter-stopwatch-filter/index.html",
+    "main.2d731a5d.css.map": "/counter-stopwatch-filter/static/css/main.2d731a5d.css.map",
+    "main.14752c2c.js.map": "/counter-stopwatch-filter/static/js/main.14752c2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d731a5d.css",
+    "static/js/main.14752c2c.js"
+  ]
+}
